@@ -1,7 +1,7 @@
-Breakpoint 1 at 0x274: file source/main.c, line 87.
+Breakpoint 1 at 0x1ca: file source/main.c, line 59.
 Note: automatically using hardware breakpoints for read-only addresses.
 ======================================================
 Running all tests..."
 
-"PINA: 0x00, 0x01, 0x00; cnt: 9 => PORTC: 9, 9, 9; state: Wait, Inc, Wait"..."PINA: 0x00, 0x02, 0x00; cnt: 0 => PORTC: 0, 0, 0; state: Wait, Dec, Wait"..."PINA: 0x02, 0x03, 0x02; cnt: 5 => PORTC: 5, 0, 0; state: Dec, Rst, Rst"..."PINA: 0x01, 0x03, 0x01; cnt: 5 => PORTC: 5, 0, 0; state: Inc, Rst, Rst"..."PINA: 0x00, 0x03, 0x00; cnt: 5 => PORTC: 5, 0, 0; state: Wait, Rst, Wait"..."PINA: 0x00, 0x01, 0x00, 0x02, 0x00, 0x01, 0x02, 0x01; cnt: 5 => PORTC: 5, 6, 6, 5, 5, 6, 5, 6; state: Wait, Inc, Wait, Dec, Wait, Inc, Dec, Inc"...======================================================
+"PINA: 0x00, 0x04, 0x00, 0x02 => PORTB: 0, 0, 0, 1; state: Lock, Unlock1, Unlock1, Unlock2"..."PINA: 0x00, 0x06, 0x00, 0x02 => PORTB: 0, 0, 0, 0; state: Lock, Lock, Lock, Lock"..."PINA: 0x00, 0x04, 0x06, 0x02 => PORTB: 0, 0, 0, 0; state: Lock, Unlock1, Lock, Lock"..."PINA: 0x00, 0x80 => PORTB: 1, 0; state: Unlock2, Lock"..."PINA: 0x00, 0x07 => PORTB: 1, 1; state: Unlock2, Unlock2"...======================================================
 Remote doesn't know how to detach
